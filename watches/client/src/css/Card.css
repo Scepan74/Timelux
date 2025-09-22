@@ -1,0 +1,150 @@
+.card {
+  position: relative;
+  border: 1px solid rgba(127, 255, 212, 0.49);
+  border-radius: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 1px solid green;
+}
+.card-text {
+  margin: 0.3rem 0.5rem;
+}
+
+.card-price {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0.5rem;
+  /* border: 1px solid green; */
+}
+
+/* --------------------------------------------------------------responsive
+
+-----------------------------------------phone*/
+@media screen and (max-width: 479px) {
+  .card {
+    width: calc(45.5vw + 2px);
+    height: 67.5vw;
+  }
+  .card img {
+    width: 45.5vw;
+    height: 45.5vw;
+    margin: 0 auto;
+  }
+  /* .card-text {
+    margin: 0.3rem 0.5rem;
+  } */
+  .card-text p {
+    font-size: 3vw;
+    margin: 0.2rem 0 0.5rem;
+  }
+  .card-text h4 {
+    font-size: 4vw;
+  }
+  .card-price {
+    font-size: 3.5vw;
+  }
+  /* border: 1px solid green; */
+}
+
+/* -------------------------------------- */
+/* --------------------------------------------------------------tablet */
+@media screen and (min-width: 479px) and (max-width: 768px) {
+  .card {
+    width: calc(30vw + 2px);
+    height: 49vw;
+  }
+  .card img {
+    width: 30vw;
+    height: 30vw;
+    margin: 0 auto;
+  }
+
+  .card-text p {
+    font-size: 2.5vw;
+    margin: 0.2rem 0 0.5rem;
+  }
+  .card-text h4 {
+    font-size: 3vw;
+  }
+  .card-price {
+    font-size: 2.5vw;
+  }
+  /* border: 1px solid green; */
+}
+
+/* --------------------------------------------------------------laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: calc(23vw + 2px);
+    height: 33.5vw;
+  }
+  .card img {
+    width: 23vw;
+    height: 23vw;
+    margin: 0 auto;
+  }
+  .card-text p {
+    font-size: 1.5vw;
+    margin: 0.2rem 0 0.5rem;
+  }
+  .card-text h4 {
+    font-size: 2vw;
+  }
+  .card-price {
+    font-size: 1.6vw;
+  }
+}
+/* --------------------------------------------------------------desktop */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .card {
+    width: calc(18.8vw + 2px);
+    height: 25.7vw;
+  }
+  .card img {
+    width: 18.8vw;
+    height: 18.8vw;
+    margin: 0 auto;
+  }
+  .card-text p {
+    font-size: 1vw;
+    margin: 0.2rem 0 0.5rem;
+  }
+  .card-text h4 {
+    font-size: 1.33vw;
+  }
+  .card-price {
+    font-size: 1.1vw;
+  }
+}
+/* --------------------------------------------------------------large */
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 14.2rem;
+    height: 19.2rem;
+    /* border: 1px solid green; */
+  }
+  .card img {
+    width: calc(14.2rem - 2px);
+    height: calc(14.2rem - 2px);
+    margin: 0 auto;
+  }
+  .card-text {
+    margin: 0.3rem 0;
+  }
+  .card-text p {
+    font-size: 0.75rem;
+    margin: 0.2rem 0 0.5rem;
+  }
+  .card-price {
+    font-size: 0.83rem;
+  }
+}

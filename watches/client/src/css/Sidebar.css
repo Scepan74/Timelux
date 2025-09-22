@@ -1,0 +1,96 @@
+/* ------------------------close btn animation */
+.close-btn {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border-radius: 50%;
+  background-color: red;
+  visibility: hidden;
+  animation: rollin 0s 0.5s linear forwards;
+  border: 1px solid white;
+  z-index: 100;
+}
+
+@keyframes rollin {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    /* opacity: 1; */
+    visibility: visible;
+  }
+}
+
+.burger-icon-anim {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 1.3rem;
+  color: rgb(136, 129, 129);
+  animation: roll 0.5s forwards;
+}
+@keyframes roll {
+  0% {
+    transform: translateX(0) rotate(0deg);
+    visibility: hidden;
+    border-radius: 5%;
+    color: white;
+  }
+  50% {
+    border-radius: 25%;
+    background-color: rgba(255, 0, 0, 0.54);
+  }
+  100% {
+    transform: translateX(17.7rem) rotate(360deg);
+    border-radius: 50%;
+    background-color: red;
+    /* visibility: visible; */
+  }
+}
+/* ----------------------------------------- */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 45rem;
+  width: 20rem;
+  background-color: #001015;
+  border-bottom-right-radius: 1rem;
+  z-index: 1000;
+  font-family: var(--font-header);
+}
+.categories {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  height: 30rem;
+  width: 18rem;
+  background-color: #001015;
+}
+.categories h4 {
+  text-transform: uppercase;
+}
+label {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -0.5rem;
+}
+.brand-list {
+  height: 8rem;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: white aquamarine;
+}
+.apply-btn-container {
+  text-align: center;
+  margin: 2.5rem auto 0;
+}
+.apply-btn {
+  display: inline-block;
+  font-size: medium;
+}

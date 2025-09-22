@@ -1,0 +1,17 @@
+.search {
+  position: relative;
+  width: 25vw;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  width: 1.3rem;
+}
+.search-icon {
+  margin-bottom: -0.1rem;
+  color: black;
+}

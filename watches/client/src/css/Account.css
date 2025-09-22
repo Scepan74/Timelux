@@ -1,0 +1,70 @@
+.pay-cart {
+  position: relative;
+  min-height: 92vh;
+  height: fit-content;
+  margin-top: 0.3rem;
+}
+
+.account-header {
+  position: relative;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.account-header h2 {
+  font-weight: 100;
+}
+
+.pay-cart-footer {
+  position: relative;
+  margin-top: 4rem;
+  text-align: center;
+}
+.cart-total h4 {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  font-family: var(--font-header);
+}
+
+.pay-btn {
+  margin: 2rem 0;
+  height: 3.25em;
+  width: 3.4em;
+  border-radius: 50%;
+  border-color: aquamarine;
+  background-color: rgba(127, 255, 212, 0.12);
+}
+.pay-container {
+  border-radius: 1rem;
+  padding: 1rem;
+  position: relative;
+  margin: 0 auto;
+  height: fit-content;
+  width: 90%;
+  display: flex;
+  /* align-items: space-evenly; */
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.pay-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pay-item img {
+  height: 7rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.pay-item h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  text-align: end;
+}

@@ -1,0 +1,55 @@
+.all {
+  height: fit-content;
+}
+.all h1 {
+  position: relative;
+  text-align: center;
+  margin: 0.5rem 0 0.1rem;
+}
+.all-cards-container {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  max-width: 99vw;
+  padding: 0.5rem;
+  display: grid;
+  gap: 0.5rem;
+}
+/* --------------------------------------------------------------responsive
+-----------------------------------------phone */
+@media screen and (max-width: 479px) {
+  .all-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* -------------------------------------- */
+/* --------------------------------------------------------------tablet */
+@media screen and (min-width: 479px) and (max-width: 768px) {
+  .all-cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* --------------------------------------------------------------laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .all-cards-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* --------------------------------------------------------------desktop */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .all-cards-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+/* --------------------------------------------------------------large */
+@media screen and (min-width: 1200px) {
+  .all-cards-container {
+    max-width: 1190px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

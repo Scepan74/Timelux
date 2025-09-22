@@ -1,0 +1,79 @@
+.checkin {
+  width: 99%;
+  max-width: 1190px;
+  height: 92vh;
+  /* height: fit-content; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-header);
+  font-weight: lighter;
+}
+.heading {
+  margin: -6rem 0 5rem;
+  /* font-size: 1rem; */
+  color: #ffffff1d;
+  z-index: 1;
+}
+.checkin-form {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  gap: 3.3rem;
+  /* flex-direction: column; */
+  /* border: 1px solid red; */
+}
+#checkin-single {
+  display: none;
+}
+
+/* --------------------------------------------------------------responsive
+
+-----------------------------------------phone*/
+@media screen and (max-width: 479px) {
+  .checkin {
+    margin-top: 0;
+  }
+  .heading {
+    margin: -6rem 0 5rem;
+    font-size: 0.9rem;
+  }
+  .checkin-form {
+    width: 20rem;
+  }
+  #checkin-single {
+    display: block;
+  }
+  /* border: 1px solid red; */
+  #signup,
+  #login {
+    display: none;
+  }
+
+  /* -------------------------------------- */
+}
+
+/* --------------------------------------------------------------tablet */
+@media screen and (min-width: 479px) and (max-width: 768px) {
+  .checkin {
+    margin-top: 0;
+  }
+  .heading {
+    margin: -6rem 0 5rem;
+    font-size: 0.9rem;
+  }
+  .checkin-form {
+    width: 20rem;
+  }
+  #checkin-single {
+    display: block;
+  }
+  /* border: 1px solid red; */
+  #signup,
+  #login {
+    display: none;
+  }
+}

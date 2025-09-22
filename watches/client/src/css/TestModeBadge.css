@@ -1,0 +1,22 @@
+.header-badge {
+  position: absolute;
+  display: inline-block;
+  right: 2.5rem;
+  top: 5%;
+  height: 3rem;
+  width: 3rem;
+  z-index: 1000;
+
+  /* background-color: transparent; */
+  /* border: 1px solid red; */
+}
+.footer-badge {
+  position: absolute;
+  display: inline-block;
+  right: 50%;
+  bottom: 1.5rem;
+  transform: translateX(50%);
+  height: 3rem;
+  width: 3rem;
+  z-index: 1000;
+}

@@ -1,0 +1,1289 @@
+main {
+  padding-bottom: 0.5rem;
+  margin-bottom: 3.3rem;
+}
+.section1 {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  padding-top: 0.5rem;
+}
+
+/* --------------------------------brand */
+.brand {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 99%;
+  height: fit-content;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.brand-text {
+  width: 40rem;
+  color: rgba(255, 255, 255, 0.471);
+  line-height: 1.3rem;
+  margin: auto 0;
+  padding: 1rem 2rem;
+  padding-bottom: 0.3rem;
+  /* border: 1px solid red; */
+}
+.brand-text span {
+  font-family: var(--font-header);
+  font-size: 4rem;
+  color: white;
+}
+.brand-img {
+  object-fit: contain;
+  height: 14vh;
+}
+
+/* ------------------------------------service icons */
+.service-icons {
+  position: relative;
+  height: 5rem;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+.icon-box {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  color: rgba(255, 255, 255, 0.471);
+  /* border: 1px solid red; */
+}
+.icon-box p {
+  margin-bottom: 0.1rem;
+}
+.icon-box:nth-last-child(1) {
+  margin-top: 0.2rem;
+  margin-bottom: -0.1rem;
+  /* border: 1px solid red; */
+}
+.icon {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  /* margin:0 auto; */
+}
+.gift-icon {
+  color: red;
+  font-size: 1.6rem;
+  background-color: white;
+  border-radius: 50%;
+}
+/* ----------------------section2- grid */
+
+.grid-container {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: grid;
+  width: 100%;
+}
+.grid-item {
+  border-radius: 1rem;
+}
+/* ------------------------pop brands */
+.grid-item1 {
+  grid-area: a;
+  position: relative;
+  height: fit-content;
+  right: 0;
+  left: 0;
+  margin: 0 0 0.5rem;
+}
+.pop-brands {
+  width: 100%;
+  height: fit-content;
+}
+.pop-brands h1 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.3rem;
+}
+.pop-watch-box {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  /* border: 1px solid green; */
+}
+.pop-watch {
+  width: 19%;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  border-radius: 1rem;
+}
+.pop-watch img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: -0.3rem;
+}
+.img-label {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  line-height: 1.2rem;
+}
+/* -------------------men */
+.grid-item2 {
+  grid-area: b;
+  padding: 0.5rem;
+  padding-left: 0.5rem;
+}
+.gents {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background: url(../assets/men.webp) no-repeat 24% bottom/ cover;
+  border-radius: 1rem;
+}
+.gents h1 {
+  color: #478b76;
+  margin: 9rem 20rem 0 auto;
+  font-size: 3.2rem;
+}
+/* --------------------------women */
+.grid-item3 {
+  grid-area: c;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0 0.5rem;
+  margin: 0 0 0.5rem;
+}
+.ladies {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  color: red;
+  background: url(../assets/women.webp) no-repeat center/ cover;
+  border-radius: 1rem;
+}
+.ladies h1 {
+  font-size: 3.2rem;
+  margin: -4rem 0.3rem 0;
+}
+.grid-item3 .btn {
+  margin-right: 0.5rem;
+}
+.grid-item3 span {
+  color: white;
+  background: rgb(245, 115, 137);
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.grid-item3 span:hover {
+  background: rgba(255, 0, 0, 0.638);
+  border: 1px solid white;
+  color: white;
+}
+/* ------------------------grid6-WeOwn */
+.grid-item6 {
+  grid-area: f;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0 0.5rem;
+}
+.we-own {
+  height: 100%;
+  background-color: rgba(248, 241, 241, 0.1);
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  color: rgba(255, 255, 255, 0.374);
+  border-radius: 1rem;
+}
+.grid-item6 p {
+  padding: 0.4rem 1.5rem;
+  font-size: 0.9rem;
+}
+/* -------------------watchmaker */
+.grid-item4 {
+  grid-area: d;
+  width: 30.8vw;
+  height: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.item4-img {
+  height: 100%;
+  border-radius: 1rem;
+  background: url(../assets/watchmaker.webp) center/cover;
+}
+/* ------------------------------unisex */
+.grid-item5 {
+  grid-area: e;
+  position: relative;
+  width: 98.4vw;
+  padding: 0 0.5rem;
+  margin-bottom: 0.6rem;
+}
+.unisex {
+  display: flex;
+  height: 100%;
+  background: url(../assets/unisex.webp) center/cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 0.5rem;
+  color: rgba(255, 0, 0, 0.472);
+  font-size: 3rem;
+  border-radius: 1rem;
+}
+.grid-item5 .btn {
+  background-color: rgba(0, 0, 0, 0.61);
+}
+/* ---------------------------grid7-logos */
+
+.grid-item7 {
+  grid-area: g;
+  height: 3.8rem;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  background-color: rgba(255, 255, 255, 0.135);
+  margin: 0 0 0.5rem 0.5rem;
+
+  /* border: 1px solid red; */
+}
+.logo-box {
+  width: 362vw;
+  display: flex;
+  column-gap: 8vw;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+  padding: 0 5vw;
+  animation: logo-slide 15s ease-in-out infinite;
+}
+.logo-box:hover {
+  animation: logo-slide 15s ease-in-out infinite;
+}
+@keyframes logo-slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(clamp(-75%, -80%, -100%));
+    /* transform: translateX(calc(-75% * (min(100vw, 2970px) / 2970))); */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* @keyframes logo-slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-268vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
+
+.watch-logo {
+  height: 3.4rem;
+  width: 20vw;
+  object-fit: contain;
+}
+/*--------section3 limited */
+.section3 {
+  position: relative;
+  height: fit-content;
+  /* padding-bottom: 5rem; */
+}
+.collection-box {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.collection-img {
+  overflow: hidden;
+}
+.collection-img img {
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid aquamarine;
+}
+
+.collection-text {
+  position: relative;
+  border: 1px solid aquamarine;
+  border-radius: 1rem;
+  color: rgba(255, 255, 255, 0.374);
+}
+.collection-text h1 {
+  text-align: center;
+  color: white;
+}
+
+.btn-categories {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1.5rem;
+  /* margin-top: 2rem; */
+  /* margin-bottom: 0.5rem; */
+}
+
+/* --------------------------responsive----------------------- */
+/* -----------------------------------------phone */
+@media screen and (max-width: 479px) {
+  .section1 {
+    height: fit-content;
+    margin-bottom: 0.5rem;
+  }
+  .search {
+    margin: 0 auto;
+  }
+  /* ------------------------------brand */
+  .brand {
+    margin: 0.5rem auto 0;
+    padding-left: 1rem;
+    /* height: fit-content; */
+  }
+
+  .brand-text {
+    margin: 1rem;
+  }
+  .brand-img {
+    display: none;
+  }
+
+  /* ------------------------services icons */
+  .service-icons {
+    height: 4rem;
+  }
+  .icon-box {
+    font-size: 0.6rem;
+  }
+  /* -------------------------------------section2-grid*/
+  .section2 {
+    height: fit-content;
+  }
+  .grid-container {
+    grid-template-areas:
+      "a a a"
+      "c c c"
+      "f f f"
+      "b b d "
+      "b b d "
+      "b b d "
+      "e e e"
+      "g g g";
+  }
+  /* ---------------------pop brands */
+  .grid-item1 {
+    width: 98.5vw;
+    min-width: 355px;
+  }
+
+  .pop-watch {
+    /* border: 1px solid green; */
+    width: 23.5%;
+    height: fit-content;
+  }
+  .pop-watch img {
+    width: 100%;
+    height: 20.5vw;
+  }
+  .pop-watch:nth-last-child(1) {
+    display: none;
+  }
+  .img-label {
+    font-size: 0.6rem;
+  }
+  /* ------------------------grid3-women */
+  .grid-item3 {
+    width: 98.5vw;
+    height: 30vh;
+    margin-bottom: 0.5rem;
+  }
+  .ladies {
+    height: 100%;
+  }
+
+  /* ---------------------------grid6-WeOwn */
+  .grid-item6 {
+    width: 98.5vw;
+  }
+  .we-own {
+    height: 100%;
+  }
+  .grid-item6 p {
+    padding: 0.4rem 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  /* -----------------------------grid2-men */
+  .grid-item2 {
+    width: 66vw;
+    height: 65vh;
+    margin-right: -3.9rem;
+  }
+  .grid-item2 h1 {
+    font-size: 3rem;
+  }
+
+  /* --------------------------grid4-watchmaker */
+
+  .grid-item4 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 30.8vw;
+    /* border: 1px solid red; */
+  }
+
+  /* ------------------------------grid5-unisex */
+  .grid-item5 {
+    height: 60vh;
+    margin-right: 1.5rem;
+  }
+  .grid-item5 h1 {
+    margin-bottom: -0.5rem;
+    /* color: red; */
+  }
+
+  /*-------------- grid7-logos */
+  .grid-item7 {
+    margin-right: 2rem;
+  }
+
+  /* -----------------------------section3 */
+  .section3 {
+    margin-top: 0.5rem;
+    padding: 0 0 0.5rem;
+    width: 99vw;
+  }
+  .collection-box {
+    height: fit-content;
+    flex-direction: column;
+  }
+  .collection-img {
+    width: 98.5vw;
+    height: fit-content;
+    padding: 0.5rem 0;
+    margin: 0rem auto;
+  }
+  .collection-img img {
+    width: 98vw;
+    height: 96.7vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .collection-text {
+    order: 2;
+    width: 98vw;
+    height: 95vw;
+    margin: 0 auto 0;
+    padding: 2rem;
+  }
+  .collection-text h1 {
+    font-size: 6vw;
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+  }
+  .collection-text p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 4vw;
+  }
+}
+/* ----------------------------------------------- */
+
+/* ------------------------------tablet */
+@media screen and (min-width: 479px) and (max-width: 768px) {
+  .section1 {
+    height: fit-content;
+    margin-bottom: 0.5rem;
+  }
+  .search {
+    margin: 0 auto;
+  }
+
+  /* ------------------------------brand */
+  .brand {
+    margin: 0.5rem auto 0;
+    padding-left: 1rem;
+    /* height: fit-content; */
+  }
+
+  .brand-text {
+    margin: 1rem;
+  }
+  .brand-img {
+    display: none;
+  }
+
+  /* ------------------------services icons */
+  .service-icons {
+    height: 4rem;
+  }
+  .icon-box {
+    font-size: 0.6rem;
+  }
+  /* -------------------------------------section2-grid*/
+  .section2 {
+    height: fit-content;
+  }
+
+  .grid-container {
+    width: 100%;
+    height: fit-content;
+    grid-template-areas:
+      "a a a"
+      "c c c"
+      "f f d"
+      "b b d"
+      "b b d"
+      "e e e"
+      "g g g";
+  }
+  /* ---------------------pop brands */
+
+  .grid-item1 {
+    width: 98.8vw;
+  }
+  .pop-watch {
+    width: 19.5%;
+    height: fit-content;
+  }
+  .pop-watch img {
+    width: 100%;
+    height: 20.5vw;
+  }
+  .img-label {
+    font-size: 0.7rem;
+  }
+  /* -------------------------------grid3-women */
+  .grid-item3 {
+    width: 98.5vw;
+    margin-bottom: 0.5rem;
+  }
+  .ladies {
+    height: 30vh;
+  }
+  .ladies h1 {
+    font-size: 10.7vw;
+    margin: -4rem 1.5vw 0;
+  }
+  .grid-item3 .btn {
+    margin-right: 2vw;
+  }
+  /* ---------------------------grid6-WeOwn */
+  .grid-item6 {
+    width: 66vw;
+    margin-right: -4rem;
+    height: 4.3rem;
+  }
+  .grid-item6 p {
+    font-size: 0.8rem;
+  }
+  /* ----------------------grid2-men */
+  .grid-item2 {
+    width: 66vw;
+    height: 65vh;
+    margin-right: -3.9rem;
+  }
+
+  /* --------------------------grid4-watchmaker */
+  .grid-item4 {
+    padding-top: 0;
+    width: 31vw;
+    height: 100%;
+    /* padding-bottom: 0.5rem; */
+    /* border: 1px solid red; */
+  }
+
+  /* ------------------------------grid5-unisex */
+  .grid-item5 {
+    height: 60vh;
+    margin-right: 1.5rem;
+    /* border: 1px solid red; */
+  }
+  .grid-item5 h1 {
+    margin-bottom: -0.5rem;
+    /* color: red; */
+  }
+
+  /*-------------- grid7-logos */
+  .grid-item7 {
+    margin-right: 2rem;
+  }
+  /* @keyframes logo-slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-264vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } */
+  /* -----------------------------section3 */
+  .section3 {
+    margin: 0.5rem auto 0;
+    padding-bottom: 0.5rem;
+    /* border: 1px solid red; */
+  }
+  .collection-box {
+    justify-content: space-evenly;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+  }
+  .collection-img {
+    margin: 0.5rem 0 -0.2rem;
+  }
+  .collection-img img {
+    width: 47.5vw;
+    height: 46vw;
+  }
+
+  .collection-text {
+    width: 47.5vw;
+    height: 46vw;
+    padding: 5vw;
+    margin: 0.5rem 0 0;
+    border: 1px solid aquamarine;
+  }
+
+  .collection-text h1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .collection-text p {
+    font-size: 2.2vw;
+  }
+  .right-side {
+    margin: 0.5rem 0 -0.2rem;
+  }
+  .btn-categories {
+    bottom: 1rem;
+  }
+}
+/* -----------------------------------------laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .search-mobile {
+    display: none;
+  }
+  .section1 {
+    /* height: calc(100vh - 3rem); */
+    height: fit-content;
+    margin-bottom: 0.5rem;
+  }
+  .service-icons {
+    margin-top: -0.5rem;
+    /* border: 1px solid red; */
+  }
+  /* -------------------------brand */
+  .brand {
+    width: 98%;
+    margin: 0.5rem auto 0.5rem;
+  }
+  .brand-text {
+    width: 100%;
+
+    color: rgba(255, 255, 255, 0.471);
+    /* border: 1px solid red; */
+  }
+
+  .brand-img {
+    object-fit: contain;
+  }
+  /* .service-icons {
+    border: 1px solid red;
+  } */
+  /* --------section2-grid  */
+  .section2 {
+    height: fit-content;
+  }
+  .grid-container {
+    grid-template-areas:
+      "a a a a"
+      "b b c c"
+      "b b c c"
+      "b b d e"
+      "f f f e"
+      "g g g e";
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+  /* ------------------------pop brands */
+  .grid-item1 {
+    width: 98.8vw;
+    /* border: 1px solid green; */
+  }
+  .pop-watch {
+    width: 19.5%;
+    height: fit-content;
+  }
+  .pop-watch img {
+    width: 100%;
+    height: 20.5vw;
+  }
+  .img-label {
+    font-size: 0.7rem;
+  }
+
+  /* -------------------men */
+  .grid-item2 {
+    width: 49.3vw;
+    height: 32rem;
+    padding-top: 0;
+    padding-right: 0;
+  }
+  .gents {
+    background-position: 30% 0;
+  }
+  .grid-item2 h1 {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 3.8rem;
+    margin: auto auto;
+    left: -30%;
+    /* border: 1px solid red; */
+  }
+  /* --------------------------women */
+  .grid-item3 {
+    width: 49.5vw;
+    height: 16.9rem;
+    padding: 0 0.5rem;
+    /* border: 1px solid white; */
+  }
+  .ladies {
+    height: 100%;
+    /* padding-right: 0.5rem;
+    padding-top: 1.5rem; */
+  }
+  .ladies h1 {
+    font-size: 6vw;
+    margin: -5rem 1.5vw 0;
+  }
+  .grid-item3 .btn {
+    margin-right: 2vw;
+  }
+  /* --------------------------grid4-watchmaker */
+  .grid-item4 {
+    height: 15rem;
+    width: 13vw;
+    margin-left: 0.5rem;
+    margin-top: -0.4rem;
+  }
+  /* ------------------------------grid5-unisex */
+  .grid-item5 {
+    width: 35.5vw;
+    justify-self: right;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    /* border: 1px solid red; */
+  }
+  .grid-item5 h1 {
+    margin-bottom: -2.5rem;
+    /* color: red; */
+  }
+  /* ------------------------grid6-WeOwn */
+  .grid-item6 {
+    padding-right: 0;
+    margin-bottom: 0.5rem;
+  }
+  .grid-item6 p {
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
+    /* margin-bottom: -5.5rem; */
+  }
+
+  /*---------------------------grid7-logos */
+  .grid-item7 {
+    width: 62.3vw;
+    margin-right: -3rem;
+  }
+  .logo-box {
+    width: 222vw;
+  }
+  /* 
+  @keyframes logo-slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-163vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } */
+  .watch-logo {
+    height: 3.4rem;
+    width: 10vw;
+  }
+  /* ----------------------------------------section3 */
+  .section3 {
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .collection-box {
+    justify-content: space-evenly;
+    padding: 0 0.5rem;
+    max-height: 372px;
+    margin: 0 auto;
+  }
+  .collection-img {
+    margin: 0.5rem 0 -0.2rem;
+  }
+  .collection-img img {
+    width: 47.5vw;
+    max-width: 365px;
+    height: 46vw;
+    max-height: 361.5px;
+  }
+
+  .collection-text {
+    width: 47.5vw;
+    height: 46vw;
+    max-width: 23rem;
+    max-height: 361.5px;
+    padding: 3rem;
+    margin: 0.5rem 0 0;
+    border: 1px solid aquamarine;
+  }
+  .collection-text h1 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .collection-text p {
+    font-size: 1rem;
+  }
+  .right-side {
+    margin: 0.5rem 0 -0.2rem;
+  }
+  .btn-categories {
+    bottom: 1rem;
+  }
+}
+/* -----------------------------------------desktop */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .search-mobile {
+    display: none;
+  }
+  /*----section1 */
+
+  .section1 {
+    height: fit-content;
+    margin-bottom: 0.5rem;
+  }
+  .service-icons {
+    margin-top: -0.5rem;
+    /* border: 1px solid red; */
+  }
+  /* -------------------------brand */
+  .brand {
+    width: 98%;
+    margin: 0.5rem auto 0.5rem;
+  }
+  .brand-text {
+    width: 100%;
+  }
+
+  /* .brand-img {
+  } */
+
+  /* --------section2-grid  */
+  .section2 {
+    height: fit-content;
+  }
+  .grid-container {
+    grid-template-areas:
+      "a a a a"
+      "b b c c"
+      "b b c c"
+      "b b d e"
+      "f f f e"
+      "g g g e";
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+  /* ------------------------pop brands */
+  .grid-item1 {
+    width: 98.8vw;
+  }
+  .pop-watch {
+    width: 19.5%;
+    height: fit-content;
+  }
+  .pop-watch img {
+    width: 100%;
+    height: 20.5vw;
+  }
+
+  .img-label {
+    font-size: 0.7rem;
+  }
+
+  /* -------------------men */
+  .grid-item2 {
+    width: 49.3vw;
+    height: 32rem;
+    padding-top: 0;
+    padding-right: 0;
+  }
+  .gents {
+    background-position: 30% 0;
+  }
+  .grid-item2 h1 {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 3.8rem;
+    margin: auto auto;
+    left: -30%;
+  }
+  /* --------------------------women */
+  .grid-item3 {
+    width: 49.5vw;
+    height: 16.9rem;
+    /* border: 1px solid white; */
+  }
+  .ladies {
+    height: 100%;
+    /* font-size: 2.2rem;
+    padding-right: 0.6rem;
+    padding-top: 1.5rem; */
+  }
+  .ladies h1 {
+    font-size: 6vw;
+    margin: -5rem 1.5vw 0;
+  }
+  .grid-item3 .btn {
+    margin-right: 2vw;
+  }
+  /* --------------------------grid4-watchmaker */
+  .grid-item4 {
+    height: 15rem;
+    width: 13vw;
+    margin-left: 0.5rem;
+    margin-top: -0.4rem;
+  }
+  /* ------------------------------grid5-unisex */
+  .grid-item5 {
+    width: 35.6vw;
+    justify-self: right;
+    margin-right: 0.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* ------------------------grid6-WeOwn */
+  .grid-item6 {
+    padding-right: 0;
+    margin-bottom: 0.5rem;
+  }
+  .grid-item6 p {
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
+  }
+
+  /*---------------------------grid7-logos */
+  .grid-item7 {
+    width: 62.45vw;
+    margin-right: -3rem;
+    /* border: 1px solid red; */
+  }
+  .logo-box {
+    width: 227vw;
+  }
+  /* @keyframes logo-slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-165vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } */
+  .watch-logo {
+    height: 3.4rem;
+    width: 10vw;
+  }
+  /* ----------------------------------------section3 */
+  .section3 {
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .collection-box {
+    justify-content: space-evenly;
+    padding: 0 0.5rem;
+    max-height: 372px;
+  }
+  .collection-img {
+    margin: 0.5rem 0 -0.2rem;
+  }
+  .collection-img img {
+    width: 47.5vw;
+    max-width: 365px;
+    height: 46vw;
+    max-height: 361.5px;
+  }
+  .collection-text {
+    width: 47.5vw;
+    height: 46vw;
+    max-width: 23rem;
+    max-height: 361.5px;
+    padding: 3rem;
+    margin: 0.5rem 0 0;
+    border: 1px solid aquamarine;
+  }
+  .collection-text h1 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .collection-text p {
+    font-size: 1rem;
+  }
+  .right-side {
+    margin: 0.5rem 0 -0.2rem;
+  }
+  .btn-categories {
+    bottom: 1rem;
+  }
+}
+/* -----------------------------------------large */
+@media screen and (min-width: 1200px) {
+  .search-mobile {
+    display: none;
+  }
+
+  .section1 {
+    height: fit-content;
+    margin-bottom: 0.5rem;
+    /* border: 1px solid red; */
+  }
+  .service-icons {
+    margin-top: -0.5rem;
+  }
+  /* -------------------------brand */
+  .brand {
+    width: 98%;
+    margin: 0.5rem auto 0.5rem;
+    /* border: 1px solid red; */
+  }
+  .brand-text {
+    width: 100%;
+  }
+  /* .brand-img {
+  } */
+
+  /* --------section2-grid  */
+  .section2 {
+    height: fit-content;
+  }
+  .grid-container {
+    grid-template-areas:
+      "a a a a"
+      "b b c c"
+      "b b c c"
+      "b b d e"
+      "f f f e"
+      "g g g e";
+    /* border: 1px solid white; */
+  }
+
+  /* ------------------------pop brands */
+  .grid-item1 {
+    width: 98.8vw;
+    max-width: 1186px;
+  }
+
+  .pop-watch {
+    width: 19.5%;
+  }
+  .pop-watch img {
+    max-height: 250px;
+    width: 100%;
+    height: 20.5vw;
+  }
+
+  .img-label {
+    font-size: 0.7rem;
+  }
+
+  /* -------------------men */
+  .grid-item2 {
+    width: 49.5vw;
+    max-width: 592px;
+    height: 32rem;
+    padding-top: 0;
+    padding-right: 0;
+  }
+  .gents {
+    background-position: 30% 0;
+  }
+  .gents h1 {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 3.8rem;
+    margin: auto auto;
+    left: -30%;
+  }
+  /* --------------------------women */
+  .grid-item3 {
+    width: 49.5vw;
+    height: 16.9rem;
+    max-width: 594px;
+    padding: 0 0.5rem;
+  }
+  .ladies {
+    height: 100%;
+  }
+  .ladies h1 {
+    font-size: 4.5rem;
+    margin: -5rem 1.2rem 0;
+  }
+  .grid-item3 .btn {
+    margin-right: 1.5rem;
+  }
+
+  /* --------------------------grid4-watchmaker */
+  .grid-item4 {
+    height: 15rem;
+    width: 13vw;
+    margin-left: 0.5rem;
+    margin-top: -0.4rem;
+  }
+
+  /* ------------------------------grid5-unisex */
+  .grid-item5 {
+    width: 40vw;
+    max-width: 427px;
+    justify-self: right;
+    margin-bottom: 0.5rem;
+  }
+
+  /* ------------------------grid6-WeOwn */
+  .grid-item6 {
+    padding-right: 0;
+    margin-bottom: 0.5rem;
+  }
+  .grid-item6 p {
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
+  }
+
+  /*-----------------------grid7-logos */
+  /* .grid-item7 {
+    width: 62.5vw;
+    margin-right: -3rem;
+    width: 100%;
+  } */
+  .logo-box {
+    width: 227vw;
+    max-width: 2970px;
+    /* border: 1px solid red; */
+  }
+  @keyframes logo-slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      /* transform: translateX(clamp(-75%, -80%, -100%)); */
+
+      transform: translateX(-78%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .watch-logo {
+    height: 3.4rem;
+    width: 10vw;
+  }
+  /*----------------------------------------section3 */
+  .section3 {
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .collection-box {
+    justify-content: space-evenly;
+    padding: 0 0.5rem;
+    max-height: 372px;
+    /* border: 1px solid red; */
+  }
+  .collection-img {
+    margin: 0.5rem 0 -0.2rem;
+  }
+  .collection-img img {
+    width: 47.5vw;
+    max-width: 365px;
+    height: 46vw;
+    max-height: 361.5px;
+  }
+  .collection-text {
+    width: 47.5vw;
+    height: 46vw;
+    max-width: 23rem;
+    max-height: 361.5px;
+    padding: 3rem;
+    margin: 0.5rem 0 0;
+    border: 1px solid aquamarine;
+  }
+  .collection-text h1 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .collection-text p {
+    font-size: 1rem;
+  }
+  .right-side {
+    margin: 0.5rem 0 -0.2rem;
+  }
+  .btn-categories {
+    bottom: 1rem;
+  }
+}

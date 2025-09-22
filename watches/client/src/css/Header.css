@@ -1,0 +1,120 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: 3.3rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  font-family: var(--font-header);
+  /* border: 1px solid red; */
+}
+.burger-icon {
+  font-size: 1.5rem;
+  color: rgba(250, 250, 250, 0.8);
+  margin-top: 0.3rem;
+}
+.navbar,
+.search-form {
+  display: none;
+}
+.navbar ul {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style-type: none;
+  border: 1px;
+  /* border: 1px solid red; */
+  /* border: 1px solid red; */
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.brand-logo {
+  padding-bottom: 0.5vh;
+  padding-right: 0.7vh;
+  padding-left: 0.2vh;
+  border-bottom: 5px solid aquamarine;
+  border-radius: 50%;
+}
+
+.cartIcon {
+  font-size: x-large;
+  padding-top: 0.3rem;
+}
+.cart-count {
+  position: absolute;
+  top: 6px;
+  right: 5.8px;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  padding-bottom: 2px;
+}
+/* ---------------------------------------------------------------responsive */
+/* ----------------------------phone */
+@media screen and (max-width: 479px) {
+  .header {
+    padding: 0 1rem;
+  }
+}
+/* -----------------------tablet */
+@media screen and (min-width: 479px) and (max-width: 768px) {
+  .header {
+    padding: 0 1rem;
+  }
+}
+/* -----------------------------------------laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    padding: 0 1rem;
+  }
+
+  .search-form {
+    display: block !important;
+  }
+  .navbar {
+    display: flex !important;
+  }
+  .navbar ul {
+    width: 26vw;
+  }
+}
+
+/* -----------------------------------------desktop */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .header {
+    padding: 0 1rem;
+  }
+
+  .search-form {
+    display: block !important;
+  }
+  .navbar {
+    display: flex !important;
+  }
+}
+/* -----------------------------------------large */
+@media screen and (min-width: 1200px) {
+  .header {
+    padding: 0 1rem;
+    max-width: 1200px;
+  }
+  .search-form {
+    display: block !important;
+  }
+  .navbar {
+    display: flex !important;
+  }
+}
