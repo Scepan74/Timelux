@@ -1,0 +1,96 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "model": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imgAdd": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "desc": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "ladies",
+        "gents",
+        "unisex"
+      ]
+    },
+    "movement": {
+      "type": "enumeration",
+      "enum": [
+        "automatic",
+        "manual wind",
+        "quartz"
+      ]
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "dress",
+        "sport",
+        "casual"
+      ]
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "mappedBy": "products"
+    },
+    "brand": {
+      "type": "enumeration",
+      "enum": [
+        "A. Lange & Söhne",
+        "Audemars Piguet",
+        "Breitling",
+        "Cartier",
+        "F.P. Journe",
+        "Greubel Forsey",
+        "IWC Schaffhausen",
+        "Jaquet Droz",
+        "Omega",
+        "Panerai",
+        "Patek Philippe",
+        "Roger Dubuis",
+        "Vacheron Constantin",
+        "Van Cleef & Arpels"
+      ]
+    }
+  }
+}
