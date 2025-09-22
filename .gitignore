@@ -1,0 +1,11 @@
+// filepath: c:\Users\Scepan\Desktop\Timelux\.gitignore
+# Root level ignores
+TimeLux.txt
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Keep existing ignores in subdirectories
+# watches/api/.gitignore - Strapi ignores
+# watches/client/.gitignore - React ignores
