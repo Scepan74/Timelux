@@ -1,8 +1,8 @@
-# TimeLux – Full-Stack App
+# TimeLux – E-Commerce Full-Stack App
 
 **Live:** [timelux.webartforge.com](https://timelux.webartforge.com)
 
-TimeLux is a modern, fully responsive full-stack web application designed to demonstrate advanced front-end and back-end skills.  
+TimeLux is a modern, fully responsive e-commerce full-stack web application designed to demonstrate advanced front-end and back-end skills.  
 This project showcases professional-level UI/UX design, CMS integration, and secure payment functionality, making it an ideal portfolio piece for recruiters.
 
 ---
